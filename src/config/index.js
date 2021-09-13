@@ -1,5 +1,5 @@
 export default {
-  url: "https://localhost:1337/pages/?slug=",
+  url: "https://udemy-frontend-felps.herokuapp.com/pages/?slug=",
   siteName: "Felps",
   defaultSlug: "landing-page",
 };
