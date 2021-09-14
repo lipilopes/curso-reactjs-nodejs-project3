@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import P from "prop-types";
 import { Container } from "./styles";
-import { Menu } from "../components/Menu";
-import { Footer } from "../components/Footer";
+import { Menu } from "../../components/Menu";
+import { Footer } from "../../components/Footer";
 import { GoTop } from "../../components/GoTop";
 
 export const Base = ({ links = [], logoData, footerHtml, children }) => {

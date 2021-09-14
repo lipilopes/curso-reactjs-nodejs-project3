@@ -9,7 +9,7 @@ import { GridText } from "../../components/GridText";
 import { GridImage } from "../../components/GridImage";
 
 import { mockBase } from "../Base/mock";
-import mapData from "../../api/map-data";
+import { mapData } from "../../api/map-data";
 import { Base } from "../Base";
 import { PageNotFound } from "../PageNotFound";
 import { Loading } from "../Loading";

@@ -1,17 +1,17 @@
 import { renderTheme } from "../../styles/render-theme";
-import { GridContext } from ".";
+import { GridContent } from ".";
 
 import mock from "./mock";
 
-describe("<GridContext />", () => {
+describe("<GridContent />", () => {
   it("should render grid content", () => {
-    const { container } = renderTheme(<GridContext {...mock} />);
+    const { container } = renderTheme(<GridContent {...mock} />);
     expect(container).toMatchSnapshot();
   });
 
   it("should render grid content", () => {
     const { container } = renderTheme(
-      <GridContext {...mock} background={undefined} />
+      <GridContent {...mock} background={undefined} />
     );
     expect(container).toMatchSnapshot();
   });

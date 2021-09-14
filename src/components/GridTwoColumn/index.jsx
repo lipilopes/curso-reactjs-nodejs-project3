@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import P from "prop-types";
 
-import { Container, TextContainer, ImgContainer, Image } from "./styles";
+import { Container, TextContainer, ImgContainer, Image } from "./styled";
 
 import { SectionBackground } from "../SectionBackground";
 import { Heading } from "../Heading";

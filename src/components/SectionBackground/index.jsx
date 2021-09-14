@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import P from "prop-types";
 import { Container } from "./styles";
 import { SectionContainer } from "../SectionContainer";

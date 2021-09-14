@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import P from "prop-types";
 import { SectionBackground } from "../SectionBackground";
 import { TextComponent } from "../TextComponent";

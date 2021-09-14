@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import P from "prop-types";
 import { SectionBackground } from "../SectionBackground";
 import { TextComponent } from "../TextComponent";
 import { Heading } from "../Heading";
 import { Container, Html } from "./styles";
 
-export const GridContext = ({
+export const GridContent = ({
   title,
   html,
   background = false,
@@ -23,7 +24,7 @@ export const GridContext = ({
   );
 };
 
-GridContext.prototype = {
+GridContent.prototype = {
   title: P.string.isRequired,
   html: P.string.isRequired,
   background: P.bool,

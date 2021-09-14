@@ -1,16 +1,16 @@
-import { GridContext } from ".";
+import { GridContent } from ".";
 import mock from "./mock";
 
 export default {
-  title: "GridContext",
-  component: GridContext,
+  title: "GridContent",
+  component: GridContent,
   args: mock,
 };
 
 export const Template = (args) => {
   return (
     <div>
-      <GridContext {...args} />
+      <GridContent {...args} />
     </div>
   );
 };
